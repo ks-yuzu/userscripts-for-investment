@@ -2,8 +2,8 @@
 // @name         sbisec - show portfolio
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  ポートフォリオのグラフを表示する (米国株のみ対応, 円換算)
-// @author       Yuzu
+// @description  "外貨建商品取引サイト > 口座管理" のページでグラフを表示する (米国株のみ対応, 円換算)
+// @author       yuzu
 // @match        https://global.sbisec.co.jp/Fpts/czk/accountSummary/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.4.1.min.js

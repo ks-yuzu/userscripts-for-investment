@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  口座サマリーを見やすくする (米国株のみ対応)
-// @author       Yuzu
+// @author       yuzu
 // @match        https://global.sbisec.co.jp/Fpts/czk/accountSummary/
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
@@ -51,8 +51,4 @@ const style = {
           total: ${totalProfit} USD (${profitPercentage}% of ${totalValue} USD)
     </td></tr>`
   )
-
-  // // 合計行に色付け
-  // $('#main > div.lo2clm01.mgt20t > div.lo2clm01R01 > table > tbody > tr > td:contains(total):not(:contains(-))').css('color', )
-  // $('#main > div.lo2clm01.mgt20t > div.lo2clm01R01 > table > tbody > tr > td:contains(total):contains(-)').css('color', style.fontColorLoss)
 })()
